@@ -230,7 +230,7 @@ input:focus {
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    height: 810px;
+    height: 830px;
     /* width: ; */
     position: absolute;
     top: 65%;
@@ -256,4 +256,46 @@ input:focus {
     padding: 35px;
     display: flex;
     justify-content: center;
+}
+
+.content-space {
+    height: 530px;
+}
+
+.back_to_top {
+    width: 100%;
+    height: 20px;
+    background-color: #485769;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.help-footer {
+    display: flex;
+    background-color: #232f3e;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.footer-help-list {
+    color: #ffffff;
+    list-style: none;
+    font-size: 12px;
+}
+
+ul.footer-help-list li {
+    margin: 10px;
+}
+
+.top-heading {
+    font-size: large;
+    font-weight: bold;
+}
+
+ul.footer-help-list li:hover {
+    text-decoration: underline;
 }
