@@ -251,3 +251,9 @@ input:focus {
 .type-B-card {
     padding-left: 15px;
 }
+
+.more-padding {
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+}
