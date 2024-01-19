@@ -299,3 +299,41 @@ ul.footer-help-list li {
 ul.footer-help-list li:hover {
     text-decoration: underline;
 }
+
+.more-products {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(7, 1fr);
+    padding: 50px;
+    background-color: #131a22;
+    gap: 15px;
+}
+
+.bottom-help-list {
+    list-style: none;
+}
+
+ul.bottom-help-list li:hover {
+    text-decoration: underline;
+}
+
+ul.bottom-help-list li:first-child {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+ul.bottom-help-list li:nth-child(2) {
+    font-size: 11px;
+    color: #999999;
+}
+
+.copyright {
+    color: #DDDDDD;
+    font-size: 12px;
+    height: 25px;
+    text-align: center;
+    padding: 15px;
+    background-color: #121a22;
+}
